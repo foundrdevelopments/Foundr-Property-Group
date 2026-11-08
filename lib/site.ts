@@ -1,9 +1,9 @@
 export const siteConfig = {
-  name: "Foundr Developments",
+  name: "Foundr Property Group",
   shortName: "Foundr",
   tagline: "Protect. Refine. Develop.",
   description:
-    "A South African property development firm with over 30 years of experience protecting, refining and developing the living spaces inside people's most valuable asset — their home.",
+  "Foundr Property Group delivers premium renovations, construction, waterproofing and property maintenance services across Johannesburg, Pretoria and Gauteng.",
   contact: {
     people: [
       { name: "Cameron", phone: "061 279 1010", tel: "+27612791010" },
