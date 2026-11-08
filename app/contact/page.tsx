@@ -5,9 +5,9 @@ import { ContactForm } from "@/components/contact-form"
 import { siteConfig } from "@/lib/site"
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Bespoke Project Consultation",
   description:
-    "Start a conversation with Foundr Developments about protecting, refining or developing your home.",
+    "Request a bespoke project consultation with Foundr Property Group. Explore tailored renovations, construction, waterproofing and property care.",
 }
 
 const details = [
@@ -23,15 +23,15 @@ export default function ContactPage() {
   return (
     <>
       <PageHero
-        eyebrow="Get in touch"
-        title="Let's start a conversation."
-        intro="Tell us about your home and your ambitions. Whether you're building, refining or protecting, we'd love to help."
+        eyebrow="Private Project Enquiries"
+        title="Request a Bespoke Project Consultation."
+        intro="Exceptional spaces begin with a considered approach. Tell us about your property, your vision and what you hope to achieve. Our team will review your requirements and discuss a tailored approach to bringing your project to life."
       />
 
       <section className="mx-auto max-w-6xl px-6 py-24">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.4fr]">
           <div>
-            <h2 className="text-2xl">Contact details</h2>
+            <h2 className="text-2xl">Speak With Our Team</h2>
             <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
               Call or email any of our team directly — we&apos;ll be glad to help.
             </p>
