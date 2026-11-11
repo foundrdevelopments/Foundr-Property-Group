@@ -35,6 +35,7 @@ export function ContactForm() {
       const name = String(formData.get("name") || "")
       const email = String(formData.get("email") || "")
       const phone = String(formData.get("phone") || "")
+      const location = String(formData.get("location") || "")
       const service = String(formData.get("service") || "")
       const investment = String(formData.get("investment") || "")
       const message = String(formData.get("message") || "")
@@ -49,6 +50,7 @@ export function ContactForm() {
           email,
           phone,
           message: [
+            `Project Location: ${location || "Not specified"}`,
             `Service: ${service || "Not specified"}`,
             `Indicative Project Investment: ${investment || "Not specified"}`,
             "",
@@ -152,7 +154,7 @@ export function ContactForm() {
             placeholder="you@example.com"
           />
         </Field>
-
+        
         <Field label="Phone" htmlFor="phone">
           <input
             id="phone"
@@ -161,6 +163,18 @@ export function ContactForm() {
             autoComplete="tel"
             className={inputClass}
             placeholder="+27 ..."
+          />
+        </Field>
+
+        <Field label="Project Location (Suburb)" htmlFor="location">
+          <input
+            id="location"
+            name="location"
+            type="text"
+            required
+            autoComplete="address-level2"
+            className={inputClass}
+            placeholder="e.g. Bryanston, Johannesburg"
           />
         </Field>
 
